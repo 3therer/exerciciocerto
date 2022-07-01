@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		
+	
+		real a, b, c, d, i, f, x, y = 0.0
+		escreva("\nInsira os coeficientes: A, B, C, D, E e F")
+		leia(a, b, c, d, i, f)
+
+		x = (c*i - b*f)/(a*i - b*d)
+		y = (a*f - c*d)/(a*i - b*d)
+
+		escreva("Valor X: ", mat.arredondar(x, 2), "\nValor Y: ", mat5.arredondar(y, 2))
+	}
+}

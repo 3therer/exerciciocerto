@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		real custoFab, porcenDistri, imposto, carroNovo = 0.0
+
+		escreva("\nInsira o custo de fabricação de um carro: ")
+		leia(custoFab)
+
+		porcenDistri = custoFab * 0.28
+		imposto = custoFab * 0.45
+		carroNovo = custoFab + porcenDistri + imposto
+
+		escreva("Custo de um carro novo: ", mat.arredondar(carroNovo, 2))
+	}
+}

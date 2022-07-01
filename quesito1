@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro totalDias,ano,mes,dia
+
+		escreva("\nEntre com o total de dias vividos por você:")
+		leia(totalDias)
+
+		ano = totalDias/365
+		mes = (totalDias%365)/30
+		dia = (totalDias%365)%30
+
+		escreva("\nVocê viveu:",ano,"anos(s),",mes,"mes(es) e",dia,"dia(s) de vida")
+	}
+}

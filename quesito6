@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		real x1, x2, y1, y2, result = 0.0
+		escreva("Escreva a coordenada de dois pontos\n")
+		escreva("X do ponto 1: ")
+		leia(x1)
+		escreva("Y do ponto 1: ")
+		leia(y1)
+		escreva("X do ponto 2: ")
+		leia(x2)
+		escreva("Y do ponto 2: ")
+		leia(y2)
+
+		result = mat.raiz((mat.potencia(x2 - x1, 2.0)) + (mat.potencia(y2 - y1, 2.0)), 2.0)
+
+		escreva("O resultado é: ", mat.arredondar(result, 2))
+	}
+}

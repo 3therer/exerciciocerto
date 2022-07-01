@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		real nota1,nota2,nota3,media
+		escreva("\nEntre com sua primeira nota:")
+		leia(nota1)
+		escreva("\nEntre com sua segunda nota:")
+		leia(nota2)
+		escreva("\nEntre com sua terceira nota:")
+		leia(nota3)
+		media = (nota1*2) + (nota2*3) + (nota3*5)/3
+		escreva("\nSua média é:",media)
+	}
+}

@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Matematica --> mar
+	
+	funcao inicio()
+	{
+		inteiro totalSegundos,horas,minutos,segundos
+
+		escreva("\nEntre com o total de segundos de duração do evento: ")
+		leia(totalSegundos) 
+
+		horas = totalSegundos / 60 
+		minutos = (totalSegundos % 60) / 60
+		segundos = (totalSegundos % 60) % 60
+
+		escreva("\nO evento durou: ",horas," hora(s), ",minutos," minuto(s) e ",segundos," segundo(s)") 
+		
+
+	}
+}
